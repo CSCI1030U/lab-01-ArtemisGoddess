@@ -22,7 +22,7 @@ def main():
     while i <= 5:
         investment += investment * interest_rate
         i += 1
-    print('\n\nAfter 5 years, your investment will be worth ' + str(investment) + ' dollars.')
+    print('After 5 years, your investment will be worth ' + str(investment) + ' dollars.')
     #expected output: After 5 years, your investment will be worth 1187.6863056468749 dollars.
 
 if __name__ == "__main__":
