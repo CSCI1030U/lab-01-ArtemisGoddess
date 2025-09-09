@@ -4,8 +4,10 @@ def main():
 
     # YOUR CODE FOR PART 1 GOES HERE  
     subtotal_cost = quantity * cost_per_item
-    tax = subtotal_cost * 0.13
+    tax = round(subtotal_cost * 0.13, 2)
     total_cost = subtotal_cost + tax
+
+    
 
     # YOUR CODE FOR PART 2 GOES HERE
     print(f'cost_per_item = ${cost_per_item:0.2f}\nquantity = {quantity:0.2f}\nsubtotal_cost = {subtotal_cost:0.2f}$\ntax = {tax:0.2f}%\ntotal_cost = {total_cost:0.2f}') # a sample for you to use for the other prices
