@@ -1,6 +1,6 @@
 def main():
     cost_per_item = 19.99
-    quantity = 5 
+    quantity = 5
 
     # YOUR CODE FOR PART 1 GOES HERE  
     subtotal_cost = quantity * cost_per_item
@@ -10,7 +10,7 @@ def main():
     
 
     # YOUR CODE FOR PART 2 GOES HERE
-    print(f'cost_per_item = ${cost_per_item:0.2f}\nquantity = {quantity:0.2f}\nsubtotal_cost = {subtotal_cost:0.2f}$\ntax = {tax:0.2f}%\ntotal_cost = {total_cost:0.2f}') # a sample for you to use for the other prices
+    print(f'cost_per_item = ${cost_per_item:0.2f}\nquantity = {quantity}\nsubtotal_cost = ${subtotal_cost:0.2f}\ntax = ${tax:0.2f}\ntotal_cost = ${total_cost:0.2f}') # a sample for you to use for the other prices
 
 
     # THIS IS THE CODE FOR PART 3
